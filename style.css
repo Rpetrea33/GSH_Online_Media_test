@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-size: x-large;
+  }
+.section_Standings{
+    border-radius: 20px;
+}
+
+  .selected_region{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+  }
+
+  .selectedRegion_container{
+    background-color:#F4FCF7;
+    border-radius: 10px;
+  }
+
+  .europe_flag_icon{
+    margin-bottom: 5px;
+    
+  }
+
+  .Stadings{
+    background-color: #f4fcf7;
+    border-radius: 10px;
+}
+
+  .nav-link{
+    color: #29a456 ;
+  }
+
+  .nav-link:hover{
+    background-color: #29a456 ;
+    color: white;
+    border-radius: 10px;
+  }
+
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+  }
+
+.tableSection{
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+  .table-box{
+    padding-bottom:3px ;
+ 
+  }
+  .table-row{
+    display: table;
+    width: 100%;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    }
+
+
+  .table-head{
+    background-color:transparent;
+    height: 15px;
+}
+
+
+  .table-cell{
+    display: table-cell;
+    text-align: left;
+    justify-content: center;
+    }
+
+  .pozitie{
+    margin-left: 5px;
+  }
+  
+  .mark{
+    width: 13px;
+    height: 13px;
+    border:1px solid black;
+    border-radius: 2px;
+    font-size: 7px;
+    background-color:#41479b ;
+    color: white;
+  }
+
+  .table-cell p{
+    margin-top: 10px;
+    align-items: center;
+    font-family: 'Proxima Nova Condensed';
+    font-style: normal;
+    font-weight: 600;
+ }
+
+
+ .Head2_records{
+  
+  background-color: #ddd;
+  border-radius: 10px;
+  align-items: start;
+  font-family: 'Neuzeit Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+ }
+
+
+ .container {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.team img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.team_Name p {
+  font-family: 'Proxima Nova Condensed';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+color: #2B2B2B;
+}
+
+.team-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  height: 80px;
+  width: 80px;
+}
+
+.team-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  height: 80px;
+  width: 80px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  
+}
+
+.score-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  
+}
+
+
+
+  
+
+
+.score p {
+font-size: 3rem;
+margin: 0;
+font-family: 'Proxima Nova Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+border-radius: 10px;
+background-color:  #F4FCF7;
+
+color: #1B9E4B;
+}
+
+.progress-bar{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  width: 180px;
+  height: 20px;
+  background-color: #ccc;
+  margin-top: 10px;
+  
+}
+
+.progress-bar:before {
+  content: '';
+  display: block;
+  height: 10px;
+  background-color: #2196F3;
+  width: 50%;
+}
+
+.infobar {
+  width: 180px;
+  height: 20px;
+  display: flex;
+  margin-top: 10px;
+  border-radius: 10px;
+  
+}
+.green {
+  background-color: #1B9E4B;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  
+}
+.yellow {
+  background-color:#e1cd22;
+  color:#9e841b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.pink {
+  background-color:#FFE0E0;
+  color:red;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  
+  
+}
+
+.winsandloses{
+  display: flex;
+  flex-direction:row;
+  align-items: start;
+  justify-content:start;
+  margin: 0 20px;
+  width: 180px;
+  padding-top: 10px;
+  
+  
+
+}
+
+.wins{
+  width: 45px;
+  border-radius: 10px;
+  background-color:#F4FCF7 ;
+  margin-right: 70px;
+  font-size: 3rem;
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 10px;
+  background-color:  #F4FCF7;
+  color: #1B9E4B;
+}
+
+.loses{
+  width: 45px;
+  border-radius: 10px;
+  background-color:#F4FCF7 ;
+  font-size: 3rem;
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 10px;
+  background-color:  #F4FCF7;
+  color: #1B9E4B;
+
+}
+
+.pagination{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  margin: 0 20px;
+  width: 180px;
+  padding-top: 10px;
+}
+
+.page{
+  width: fit-content;
+  border-radius: 50px;
+  background-color:#F4FCF7 ;
+  margin-right: 10px;
+  font-size: 3rem;
+  font-family: 'Proxima Nova Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 10px;
+  background-color:  #F4FCF7;
+  color: #1B9E4B;
+}
+
+
+
+.finishRule{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  margin: 0 20px;
+ 
+padding-top: 10px;
+font-family: 'Neuzeit Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+
+color: #2B2B2B;
+
+}
+
+
+.record_details{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom: 10px;
+
+}
+
+
+
+  
+  
+
+
+
+.records{
+  margin:5px;
+  padding-top: 10px;
+  border:2px solid #1B9E4B;
+  border-radius:10px;
+  width: 100%;
+  height: 100%;
+  background-color:  #F4FCF7;
+  color: #1B9E4B;
+}
+
+.records1_firstRow{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: start;
+  height: 50%;
+  margin: 5px;
+  
+}
+.matches{
+height: fit-content;
+width:50%;
+
+font-family: 'Neuzeit Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+color: #1B9E4B;
+
+
+}
+
+.percentage{
+  height: fit-content;
+  width:50%;
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1B9E4B;
+  
+}
+
+.records1_secondRow{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: start;
+  height: 50%;
+  margin: 5px;
+}
+
+.BTTS{
+  height: fit-content;
+  width:100%;
+  
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1B9E4B;
+  margin-bottom: 10px;
+}
+
+
+.box5 {
+  border:2px solid#9E841B;
+  background-color: #FFF7CD;
+  color: #9E841B ;
+}
+
+.matchesBox5 {
+border: none;
+height: fit-content;
+width:50%;
+font-family: 'Neuzeit Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+color: #9E841B;
+}
+
+.percentageBox5{
+  border: none;
+  height: fit-content;
+  width:50%;
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #9E841B;
+}
+
+.box6 {
+  border:2px solid#E1223C;
+  background-color:#FFE0E0;;
+  color: #E1223C ;
+}
+
+.matchesBox6 {
+border: none;
+height: fit-content;
+width:50%;
+font-family: 'Neuzeit Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+color: #E1223C;
+}
+
+.percentageBox6{
+  border: none;
+  height: fit-content;
+  width:50%;
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #E1223C;
+}
+
+.matchesBox2{
+width: 100%;
+font-family: 'Neuzeit Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 10px;
+}
+
+
+.records2_secondRow{
+  display: flex;
+  flex-direction:column;
+  align-items: start;
+  justify-content: center;
+  height: 50%;
+  margin: 5px;
+
+}
+.infobar1{
+  padding-left: 10px ;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: -17px;
+  background-color: #1B9E4B;
+  color: white;
+  height: 10px;
+  width: 90%;
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.infobar2{
+  margin-top: 5px;
+  padding-left: 10px;
+  
+  
+  
+  border-radius: 10px;
+  
+  background-color: #E1223C;
+  color: white;
+  width: 30%;
+  
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+ 
